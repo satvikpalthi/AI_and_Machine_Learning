@@ -1,0 +1,98 @@
+# 👨‍💻 Face Recognition Attendance System
+
+🚀 An AI-powered attendance management system built using **Python, OpenCV, and Face Recognition**. This project automatically identifies registered faces through a webcam and records attendance with date and time.
+
+## ✨ Features
+
+- 📸 Real-time face detection
+- 🤖 AI-based face recognition
+- 📝 Automatic attendance marking
+- 📅 Date and time tracking
+- 📂 CSV attendance records
+- 👤 Multiple-person recognition
+- ❓ Unknown face detection
+- ⚡ Simple and efficient Python application
+
+## 🛠️ Technologies Used
+
+- 🐍 Python
+- 👁️ OpenCV
+- 🧠 Face Recognition
+- 🔢 NumPy
+- 📊 CSV
+
+## 📁 Project Structure
+
+```text
+Face-Recognition-Attendance-System/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── dataset/
+├── models/
+└── attendance/
+```
+
+## ⚙️ Installation
+
+**1. Clone the repository**
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+**2. Open the project folder**
+
+```bash
+cd Face-Recognition-Attendance-System
+```
+
+**3. Install required libraries**
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Run the application**
+
+```bash
+python app.py
+```
+
+## ▶️ How It Works
+
+1. 📸 Add face images to the dataset folder.
+2. 🧠 Train the face recognition model.
+3. 🎥 Start the webcam.
+4. 👤 Recognize registered people.
+5. 📝 Automatically record attendance.
+6. 📊 Save attendance in CSV format.
+
+## 📊 Attendance Output
+
+Attendance records are saved in CSV format.
+
+Example:
+
+| Name | Date | Time |
+|---|---|---|
+| Student 1 | 2026-11-23 | 09:00 |
+| Student 2 | 2026-11-23 | 09:05 |
+
+## 🔐 Privacy & Security
+
+- Obtain consent before collecting face images.
+- Do not upload personal face images or attendance records publicly.
+- Verify attendance manually because face recognition can make mistakes.
+
+## 🎯 Project Objective
+
+To develop an intelligent attendance management system that reduces manual work, saves time, and demonstrates the practical use of Artificial Intelligence and Computer Vision.
+
+## 👨‍💻 Developed With
+
+❤️ Python | AI | Machine Learning | Computer Vision
+
+⭐ If you find this project useful, consider giving this repository a star!
