@@ -5,3 +5,6 @@ Face-Recognition-Attendance-System/
 ├── requirements.txt
 │
 ├── README.md
+│
+├── dataset/
+│   └── .gitkeep
